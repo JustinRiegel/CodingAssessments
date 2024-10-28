@@ -13,7 +13,8 @@ namespace SnakeCaseAssessment
                 "my_counter",
                 "_the_variable",
                 "the_variable__",
-                "This is the doc_string for __secret_fun"
+                "This is the doc_string for __secret_fun",
+                "__variable_one__"
             };
 
             List<string> expectedOutputs = new List<string>
@@ -21,7 +22,8 @@ namespace SnakeCaseAssessment
                 "myCounter",
                 "_theVariable",
                 "theVariable__",
-                "This is the docString for __secret_fun"
+                "This is the docString for __secret_fun",
+                "__variableOne__"
             };
 
             string convertedVariable;
