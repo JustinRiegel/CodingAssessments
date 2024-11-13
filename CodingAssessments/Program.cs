@@ -14,6 +14,7 @@ namespace CodingAssessments
             AmazonWeightBlockSorting.Solution.WeightSortingMain(args);
             SnakeCaseAssessment.SnakeCaseAssessment.SnakeCaseMain(args);
             HRPlusMinus.Solution.HRPlusMinusMain(args);
+            FindCountryPopulation.Solution.FindCountryPopulationMain(args);
         }
     }
 }
