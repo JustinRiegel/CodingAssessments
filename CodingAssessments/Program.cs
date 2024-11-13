@@ -13,6 +13,7 @@ namespace CodingAssessments
             AmazonServerReplacement.Solution.ServerReplacementMain(args);
             AmazonWeightBlockSorting.Solution.WeightSortingMain(args);
             SnakeCaseAssessment.SnakeCaseAssessment.SnakeCaseMain(args);
+            HRPlusMinus.Solution.HRPlusMinusMain(args);
         }
     }
 }
